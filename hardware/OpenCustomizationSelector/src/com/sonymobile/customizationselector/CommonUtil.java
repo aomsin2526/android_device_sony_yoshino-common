@@ -68,7 +68,7 @@ public class CommonUtil {
     }
 
     public static boolean isDirectBootEnabled() {
-        return StorageManager.isFileEncrypted();
+        return StorageManager.isFileEncryptedNativeOrEmulated();
     }
 
     public static boolean isDualSim(Context context) {
