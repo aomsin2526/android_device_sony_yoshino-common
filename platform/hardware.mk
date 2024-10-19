@@ -210,7 +210,7 @@ PRODUCT_PACKAGES += \
 
 # WIFI
 PRODUCT_PACKAGES += \
-    android.hardware.wifi-service
+    android.hardware.wifi@1.0-service
 
 ### TETHERING
 PRODUCT_PACKAGES += \
