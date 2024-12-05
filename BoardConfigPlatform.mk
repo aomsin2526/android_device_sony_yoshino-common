@@ -119,6 +119,14 @@ else
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
 endif
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix_legacy.xml \
+    vendor/lineage/config/device_framework_matrix.xml \
+    $(PLATFORM_PATH)/device_framework_matrix.xml
+
+DEVICE_MATRIX_FILE += hardware/qcom-caf/common/compatibility_matrix.xml
+
 ### PROPS
 TARGET_ODM_PROP += $(PLATFORM_PATH)/odm.prop
 # This is a reset, add more in devices if needed

@@ -104,10 +104,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-### VNDK
-PRODUCT_PACKAGES += \
-    vndk_package
-
 # VNDFWK_DETECT
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
@@ -121,3 +117,22 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhidlbase-v32.so \
     prebuilts/vndk/v32/arm64/arch-arm-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase-v32.so \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
+    
+# kuy
+
+# android.hardware.audio.sounddose-vendor-impl
+# liblocdiagiface
+# libloc_net_iface
+
+PRODUCT_PACKAGES += \
+    libnetutils.vendor \
+    libhidlmemory.vendor \
+    libion.vendor \
+    libutilscallstack.vendor \
+    libsqlite.vendor \
+    libpower.vendor \
+    libaudioroute.vendor \
+    libprocessgroup.vendor \
+    libstagefright_softomx_plugin.vendor \
+    librtp_jni \
+    libldacBT_bco.vendor
