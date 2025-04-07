@@ -67,7 +67,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "extra_data_handler.h"
 #include <linux/videodev2.h>
 #include <dlfcn.h>
-#include "C2DColorConverter.h"
+#include "../../../../libc2dcolorconvert/C2DColorConverter.h"
 #include "vidc_debug.h"
 #include <vector>
 #include "vidc_vendor_extensions.h"

@@ -35,7 +35,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "video_encoder_device_v4l2.h"
 #include "omx_video_encoder.h"
 #include <media/msm_vidc.h>
-#include "hypv_intercept.h"
+#include "../../../../hypv-intercept/hypv_intercept.h"
 #ifdef USE_ION
 #include <linux/msm_ion.h>
 #endif
@@ -46,10 +46,10 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #ifdef _ANDROID_
 #include <media/hardware/HardwareAPI.h>
-#include <gralloc_priv.h>
+#include "gralloc_priv.h"
 #endif
 
-#include <qdMetaData.h>
+#include "qdMetaData.h"
 
 #define ATRACE_TAG ATRACE_TAG_VIDEO
 #include <utils/Trace.h>

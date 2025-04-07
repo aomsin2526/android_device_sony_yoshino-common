@@ -50,7 +50,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <sys/ioctl.h>
 #ifdef _ANDROID_ICS_
 #include <media/hardware/HardwareAPI.h>
-#include <gralloc_priv.h>
+#include "gralloc_priv.h"
 #endif
 #ifdef _USE_GLIB_
 #include <glib.h>

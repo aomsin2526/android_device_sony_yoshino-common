@@ -51,7 +51,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <fcntl.h>
 #include <limits.h>
 #include <stdlib.h>
-#include "hypv_intercept.h"
+#include "../../../../hypv-intercept/hypv_intercept.h"
 #include <media/hardware/HardwareAPI.h>
 #include <sys/eventfd.h>
 
