@@ -27,7 +27,7 @@ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------*/
 #include <dlfcn.h>
-#include "C2DColorConverter.h"
+#include "../../../../libc2dcolorconvert/C2DColorConverter.h"
 
 using namespace android;
 class omx_c2d_conv
