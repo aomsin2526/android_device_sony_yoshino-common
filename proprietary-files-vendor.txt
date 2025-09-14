@@ -800,3 +800,28 @@ vendor/etc/init/init.touchbacklightd.rc|ea15d0aca19ca841c2484ca8f1f6d79a8f5c135c
 # WIFI
 vendor/etc/wifi/fstman.ini
 vendor/etc/wifi/p2p_supplicant_overlay.conf
+
+# HALs
+vendor/lib/libdrmutils.so;DISABLE_DEPS
+vendor/lib64/libdrmutils.so;DISABLE_DEPS
+vendor/lib/libgpu_tonemapper.so;DISABLE_DEPS
+vendor/lib64/libgpu_tonemapper.so;DISABLE_DEPS
+vendor/lib/libgrallocutils.so;DISABLE_DEPS
+vendor/lib64/libgrallocutils.so;DISABLE_DEPS
+vendor/lib/libqdMetaData.so;DISABLE_DEPS
+vendor/lib64/libqdMetaData.so;DISABLE_DEPS
+vendor/lib/libqdutils.so;DISABLE_DEPS
+vendor/lib64/libqdutils.so;DISABLE_DEPS
+vendor/lib/libqservice.so;DISABLE_DEPS
+vendor/lib64/libqservice.so;DISABLE_DEPS
+vendor/lib/libsdmcore.so;DISABLE_DEPS
+vendor/lib64/libsdmcore.so;DISABLE_DEPS
+vendor/lib/libsdmutils.so;DISABLE_DEPS
+vendor/lib64/libsdmutils.so;DISABLE_DEPS
+
+vendor/lib/hw/gralloc.msm8998.so;DISABLE_DEPS
+vendor/lib64/hw/gralloc.msm8998.so;DISABLE_DEPS
+vendor/lib/hw/hwcomposer.msm8998.so;DISABLE_DEPS
+vendor/lib64/hw/hwcomposer.msm8998.so;DISABLE_DEPS
+vendor/lib/hw/memtrack.msm8998.so;DISABLE_DEPS
+vendor/lib64/hw/memtrack.msm8998.so;DISABLE_DEPS

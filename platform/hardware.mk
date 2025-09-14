@@ -34,17 +34,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FlipFlap
 
-### DISPLAY
-PRODUCT_PACKAGES += \
-    vendor.display.config@1.3
-
-### GRAPHICS
-PRODUCT_PACKAGES += \
-    gralloc.msm8998 \
-    hwcomposer.msm8998 \
-    memtrack.msm8998 \
-    libdisplayconfig
-
 ### IPACM
 PRODUCT_PACKAGES += \
     ipacm \
@@ -217,3 +206,28 @@ PRODUCT_PACKAGES += \
 ### XPERIAPARTS
 PRODUCT_PACKAGES += \
     XperiaParts
+
+# HALs
+PRODUCT_PACKAGES += \
+    libdrm \
+    libdrm.vendor \
+    vendor.display.config@1.0 \
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@1.1 \
+    vendor.display.config@1.1.vendor \
+    vendor.display.config@1.2 \
+    vendor.display.config@1.2.vendor \
+    vendor.display.config@1.3 \
+    vendor.display.config@1.3.vendor \
+    vendor.display.config@1.4 \
+    vendor.display.config@1.4.vendor \
+    vendor.display.config@1.5 \
+    vendor.display.config@1.5.vendor \
+    vendor.display.config@1.6 \
+    vendor.display.config@1.6.vendor \
+    vendor.display.config@1.7 \
+    vendor.display.config@1.7.vendor \
+    vendor.display.config@1.8 \
+    vendor.display.config@1.8.vendor \
+    vendor.display.config@1.9 \
+    vendor.display.config@1.9.vendor

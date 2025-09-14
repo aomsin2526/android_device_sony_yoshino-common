@@ -51,8 +51,7 @@ PRODUCT_PACKAGES += \
 
 ### MEDIA
 PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor \
-    libqdMetaData.system
+    libavservices_minijail.vendor
 
 ### NETMGR
 PRODUCT_PACKAGES += \

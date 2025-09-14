@@ -348,3 +348,9 @@ lib64/libdevice_security_client.so;DISABLE_DEPS
 # UDATEMISCTA
 bin/taimport;DISABLE_DEPS
 etc/init/updatemiscta.rc
+
+# HALs
+lib/libdisplayconfig.so;DISABLE_DEPS
+lib64/libdisplayconfig.so;DISABLE_DEPS
+lib/libqdMetaData.system.so;DISABLE_DEPS
+lib64/libqdMetaData.system.so;DISABLE_DEPS

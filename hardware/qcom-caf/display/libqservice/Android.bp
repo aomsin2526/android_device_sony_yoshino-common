@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "libqservice",
+    name: "xxxlibqservice",
     vendor: true,
     defaults: ["display_defaults"],
     shared_libs: ["libbinder"],

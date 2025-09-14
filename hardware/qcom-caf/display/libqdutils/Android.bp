@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "libqdutils",
+    name: "xxxlibqdutils",
     vendor: true,
     defaults: ["display_defaults"],
     header_libs: ["libhardware_headers", "libutils_headers"],
@@ -20,7 +20,7 @@ cc_library_shared {
 }
 
 cc_library_shared {
-    name: "libqdMetaData",
+    name: "xxxlibqdMetaData",
     vendor: true,
     defaults: ["display_defaults"],
     cflags: [
@@ -32,7 +32,7 @@ cc_library_shared {
 
 // Remove after WFD moves to use libqdMetaData directly
 cc_library_shared {
-    name: "libqdMetaData.system",
+    name: "xxxlibqdMetaData.system",
     defaults: ["display_defaults"],
     cflags: [
         "-Wno-sign-conversion",
