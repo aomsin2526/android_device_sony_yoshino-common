@@ -116,12 +116,7 @@ PRODUCT_PACKAGES += \
     libhidlbase-v32 \
     libhidlbase-v32.vendor
 
-# kuy
-
-# android.hardware.audio.sounddose-vendor-impl
-# liblocdiagiface
-# libloc_net_iface
-
+#
 PRODUCT_PACKAGES += \
     libnetutils.vendor \
     libhidlmemory.vendor \

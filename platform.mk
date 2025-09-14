@@ -25,6 +25,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel
 
 QCOM_SOONG_NAMESPACE := $(PLATFORM_PATH)/hardware/qcom-caf
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/media
 
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
