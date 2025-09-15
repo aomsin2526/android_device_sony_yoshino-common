@@ -1,2 +1,5 @@
 soong_namespace {
+    imports: [
+        "vendor/sony/yoshino-common"
+    ],
 }
