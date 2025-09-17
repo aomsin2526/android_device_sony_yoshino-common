@@ -154,8 +154,8 @@ PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl:64 \
     android.hardware.radio@1.5 \
     android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.3 \
-    android.hardware.radio.config@1.3.vendor \
+    android.hardware.radio.config@1.2 \
+    android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor
 
@@ -209,25 +209,14 @@ PRODUCT_PACKAGES += \
 
 # HALs
 PRODUCT_PACKAGES += \
-    libdrm \
-    libdrm.vendor \
-    vendor.display.config@1.0 \
     vendor.display.config@1.0.vendor \
-    vendor.display.config@1.1 \
     vendor.display.config@1.1.vendor \
-    vendor.display.config@1.2 \
     vendor.display.config@1.2.vendor \
-    vendor.display.config@1.3 \
     vendor.display.config@1.3.vendor \
-    vendor.display.config@1.4 \
     vendor.display.config@1.4.vendor \
-    vendor.display.config@1.5 \
     vendor.display.config@1.5.vendor \
-    vendor.display.config@1.6 \
     vendor.display.config@1.6.vendor \
-    vendor.display.config@1.7 \
     vendor.display.config@1.7.vendor \
-    vendor.display.config@1.8 \
     vendor.display.config@1.8.vendor \
-    vendor.display.config@1.9 \
-    vendor.display.config@1.9.vendor
+    vendor.display.config@1.9.vendor \
+    libdrm.vendor
