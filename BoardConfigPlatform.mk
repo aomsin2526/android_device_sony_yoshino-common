@@ -136,6 +136,7 @@ TARGET_ODM_PROP += $(PLATFORM_PATH)/odm.prop
 # This is a reset, add more in devices if needed
 TARGET_SYSTEM_PROP := $(PLATFORM_PATH)/system.prop
 TARGET_VENDOR_PROP := $(PLATFORM_PATH)/vendor.prop
+TARGET_PRODUCT_PROP := $(PLATFORM_PATH)/product.prop
 
 ### RECOVERY
 ifneq ($(filter maple maple_dsds, $(TARGET_DEVICE)),)
