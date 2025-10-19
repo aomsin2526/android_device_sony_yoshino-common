@@ -105,11 +105,6 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
-# libhidlbase-v32
-PRODUCT_PACKAGES += \
-    libhidlbase-v32 \
-    libhidlbase-v32.vendor
-
 #
 PRODUCT_PACKAGES += \
     libnetutils.vendor \
@@ -123,3 +118,8 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx_plugin.vendor \
     librtp_jni \
     libldacBT_bco.vendor
+
+# libhidlbase_shim
+PRODUCT_PACKAGES += \
+    libhidlbase_shim \
+    libhidlbase_shim.vendor
