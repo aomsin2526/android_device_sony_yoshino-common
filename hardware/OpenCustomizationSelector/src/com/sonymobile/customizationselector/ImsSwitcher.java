@@ -81,7 +81,7 @@ public class ImsSwitcher {
 
         if (new ModemSwitcher().setModemConfiguration(ModemSwitcher.MODEM_FS_PATH + modem)) {
             AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.AppDialog);
-            builder.setCancelable(true);
+            builder.setCancelable(false);
             builder.setMessage("Your device has now switched to default modem " + modem + "\nReboot required.");
             builder.setPositiveButton("Reboot", (dialogInterface, i) -> {
                 dialogInterface.dismiss();
