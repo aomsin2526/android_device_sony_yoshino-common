@@ -41,11 +41,6 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
-### NFC
-PRODUCT_PACKAGES += \
-    com.android.nfc_extras \
-    Tag
-
 ### OPENCUSTOMIZATIONSELECTOR
 PRODUCT_PACKAGES += \
     CustomizationSelector
