@@ -104,6 +104,7 @@ on property:sys.boot_completed=1
     write /dev/cpuset/restricted/cpus "4-7"
     write /dev/cpuset/system-background/cpus "4-7"
     write /dev/cpuset/top-app/cpus "4-7"
+    write /dev/cpuset/foreground_window/cpus "4-7"
 
     # Configure governor for little cluster
     write /sys/devices/system/cpu/cpu0/online 1
